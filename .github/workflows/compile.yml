@@ -11,6 +11,8 @@ jobs:
       - name: Run a multi-line script
         run: |
           curl https://zonefiles.io/f/compromised/ip/live/ | while read in; do echo "|$in|"; done > compromised_ips.txt
+          git config --global user.name "prokrypt"
+          git config --global user.email "username@users.noreply.github.com"
           git add compromised_ips.txt
           git commit -m "update"
           git push
