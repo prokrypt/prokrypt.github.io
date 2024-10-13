@@ -1,4 +1,3 @@
-|# Compromised IPs (live list). Downloaded from Zonefiles.io|
 |103.19.89.118|
 |103.230.84.239|
 |103.26.128.84|
